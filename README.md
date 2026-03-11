@@ -43,45 +43,45 @@ The project follows the **Medallion Architecture** with three layers:
 
 ## 📂 Project Structure
 
-
+```text
 data-warehouse-project
 │
 ├── datasets
-│ ├── crm
-│ └── erp
+│   ├── crm
+│   └── erp
 │
 ├── docs
-│ ├── Data_Integration.png
-│ ├── Data_Architecture.png
-│ ├── Data_catalog.md
-│ ├── Data_flow.png
-│ └── Naming_conventions.md
+│   ├── Data_Integration.png
+│   ├── Data_Architecture.png
+│   ├── Data_catalog.md
+│   ├── Data_flow.png
+│   └── Naming_conventions.md
 │
 ├── scripts
-│ ├── bronze
-│ │ ├── Bulk_Insert_Bronze.sql
-│ │ └── DDL_Bronze.sql
-│ │
-│ ├── silver
-│ │ ├── DDL_Silver.sql
-│ │ └── Transformation_Silver.sql
-│ │
-│ ├── gold
-│ │ └── DDL_Gold.sql
-│ │
-│ └── eda
-│ ├── EDA.sql
-│ ├── customer_report.sql
-│ └── product_report.sql
+│   ├── bronze
+│   │   ├── Bulk_Insert_Bronze.sql
+│   │   └── DDL_Bronze.sql
+│   │
+│   ├── silver
+│   │   ├── DDL_Silver.sql
+│   │   └── Transformation_Silver.sql
+│   │
+│   ├── gold
+│   │   └── DDL_Gold.sql
+│   │
+│   └── eda
+│       ├── EDA.sql
+│       ├── customer_report.sql
+│       └── product_report.sql
 │
 ├── init_database
 │
 ├── tests
-│ ├── quality_checks_gold.sql
-│ └── quality_check_silver.sql
+│   ├── quality_checks_gold.sql
+│   └── quality_check_silver.sql
 │
 └── README.md
-
+```
 
 ### 📌 Folder Description
 
