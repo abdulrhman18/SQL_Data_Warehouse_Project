@@ -204,11 +204,6 @@ Some potential future improvements include:
 - Implementing **data quality checks**
 - Scheduling automated data refresh
 
----
-
-# 📷 Project Screenshots
-
-Project screenshots and SQL outputs will be added here.
 
 ---
 
